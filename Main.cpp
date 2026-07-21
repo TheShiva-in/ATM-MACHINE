@@ -10,17 +10,16 @@ int main()
     char choice;
 
 
-    cout<<"Enter Deposit Balance:";
-    cin>>Deposit;
+  
     cout<<"Enter Pin: ";
     cin>>Pin;
     if (Original_Pin==Pin)
     {
         cout<<"==== Pin Correct===="<<endl;
-        cout<<"        Menu"      <<endl;
+        cout<<"====     Menu   ===="<<endl;
         cout<<"1. Check Balance"<<Balance<<endl;
         cout<<"2. Withraw"<<Withraw<<endl<<"3. Deposit"<<endl;
-        cout<<"4. Exit";
+        cout<<"4. Exit"<<endl;
 
         switch (choice)
         {
